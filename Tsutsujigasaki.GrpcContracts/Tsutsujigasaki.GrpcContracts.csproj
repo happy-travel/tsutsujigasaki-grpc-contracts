@@ -1,22 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <Nullable>enable</Nullable>
-        <TargetFramework>net5.0</TargetFramework>
-        <LangVersion>10</LangVersion>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Company>HappyTravel</Company>
-        <Authors>Denis Nikolaev</Authors>
-        <Description>Tsutsujigasaki Grpc contracts</Description>
-        <PackageReleaseNotes>Initial</PackageReleaseNotes>
-        <PackageProjectUrl>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</PackageProjectUrl>
-        <RepositoryURL>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</RepositoryURL>
-        <Version>0.1</Version>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="HappyTravel.Money" Version="1.3.7" />
-      <PackageReference Include="System.ServiceModel.Primitives" Version="4.9.0" />
-    </ItemGroup>
-
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>HappyTravel</Company>
+    <Authors>Denis Nikolaev</Authors>
+    <Description>Tsutsujigasaki Grpc contracts</Description>
+    <PackageReleaseNotes>Initial</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</PackageProjectUrl>
+    <RepositoryURL>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</RepositoryURL>
+    <Version>0.1</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="HappyTravel.Money" Version="1.3.8" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.9.0" />
+  </ItemGroup>
 </Project>
