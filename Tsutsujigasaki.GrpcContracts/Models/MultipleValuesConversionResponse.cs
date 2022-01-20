@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
+using HappyTravel.GrpcResultContract;
 using HappyTravel.Money.Models;
 
 namespace Tsutsujigasaki.GrpcContracts.Models;
@@ -8,5 +9,5 @@ namespace Tsutsujigasaki.GrpcContracts.Models;
 public class MultipleValuesConversionResponse
 {
     [DataMember(Order = 1)]
-    public Dictionary<MoneyAmount, MoneyAmount> Result { get; set; } = new();
+    public GrpcResult<Dictionary<MoneyAmount, MoneyAmount>, string> Result { get; set; }
 }

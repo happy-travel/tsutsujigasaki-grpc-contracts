@@ -1,4 +1,5 @@
 ﻿using System.Runtime.Serialization;
+using HappyTravel.GrpcResultContract;
 
 namespace Tsutsujigasaki.GrpcContracts.Models;
 
@@ -6,5 +7,5 @@ namespace Tsutsujigasaki.GrpcContracts.Models;
 public class RatesResponse
 {
     [DataMember(Order = 1)]
-    public decimal Rate { get; set; }
+    public GrpcResult<decimal, string> Rate { get; set; }
 }
