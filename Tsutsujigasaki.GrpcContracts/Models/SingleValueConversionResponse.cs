@@ -1,4 +1,5 @@
 ﻿using System.Runtime.Serialization;
+using HappyTravel.GrpcResultContract;
 using HappyTravel.Money.Models;
 
 namespace Tsutsujigasaki.GrpcContracts.Models;
@@ -7,5 +8,5 @@ namespace Tsutsujigasaki.GrpcContracts.Models;
 public class SingleValueConversionResponse
 {
     [DataMember(Order = 1)]
-    public MoneyAmount Result { get; set; }
+    public GrpcResult<MoneyAmount, string> Result { get; set; }
 }
