@@ -7,10 +7,10 @@
     <Company>HappyTravel</Company>
     <Authors>Denis Nikolaev</Authors>
     <Description>Tsutsujigasaki Grpc contracts</Description>
-    <PackageReleaseNotes>Updated Money package</PackageReleaseNotes>
+    <PackageReleaseNotes>Get multiple rates endpoint by source currency was added</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</PackageProjectUrl>
     <RepositoryURL>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</RepositoryURL>
-    <Version>0.3.0</Version>
+    <Version>0.4.0</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="HappyTravel.GrpcResultContract" Version="0.1.2" />
