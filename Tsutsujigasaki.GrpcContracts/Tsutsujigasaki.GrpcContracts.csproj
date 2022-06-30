@@ -10,7 +10,7 @@
     <PackageReleaseNotes>Get multiple rates endpoint by source currency was added</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</PackageProjectUrl>
     <RepositoryURL>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</RepositoryURL>
-    <Version>0.4.0</Version>
+    <Version>0.4.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="HappyTravel.GrpcResultContract" Version="0.1.2" />
