@@ -5,12 +5,12 @@
     <LangVersion>10</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>HappyTravel</Company>
-    <Authors>Denis Nikolaev</Authors>
+    <Authors>Denis Nikolaev, Daniyar Askarov</Authors>
     <Description>Tsutsujigasaki Grpc contracts</Description>
-    <PackageReleaseNotes>Get multiple rates endpoint by source currency was added</PackageReleaseNotes>
+    <PackageReleaseNotes>TargetCurrencies param was added to GetRates method</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</PackageProjectUrl>
     <RepositoryURL>https://github.com/happy-travel/tsutsujigasaki-grpc-contracts</RepositoryURL>
-    <Version>0.4.1</Version>
+    <Version>0.5.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="HappyTravel.GrpcResultContract" Version="0.1.2" />
