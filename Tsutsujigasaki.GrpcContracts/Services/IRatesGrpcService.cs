@@ -12,5 +12,5 @@ public interface IRatesGrpcService
     Task<RatesResponse> GetRate(RatesRequest request);
 
     [OperationContract(Name = "GetRates")]
-    Task<MultipleRatesResponse> GetRates(Currencies sourceCurrency);
+    Task<MultipleRatesResponse> GetRates(MultipleRatesRequest request);
 }
